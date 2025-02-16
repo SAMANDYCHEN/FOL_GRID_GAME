@@ -8,7 +8,7 @@ This repository contains an **interactive logic puzzle game** that uses a **5×5
 2. [Project Structure](#project-structure)  
 3. [Getting Started](#getting-started)  
 4. [Usage Instructions](#usage-instructions)  
-5. [Adding New Templates](#adding-new-templates)  
+
 
 
 ---
