@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Logic Grid Game</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <label for="difficulty-select">Select Difficulty:</label>
+  <select id="difficulty-select">
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+
+  <div id="grid-container"></div>
+  <div id="statement-text"></div>
+
+  <div id="option-buttons" class="options-container">
+    <!-- Multiple choice buttons will be dynamically generated here -->
+  </div>
+
+  <button id="next-question">Next Question</button>
+
+  <script type="module" src="scripts/main.js"></script>
+
+  <!-- Simple load check -->
+  <script>
+    window.onload = function() {
+      console.log("Page loaded successfully.");
+    };
+  </script>
+</body>
+</html>
